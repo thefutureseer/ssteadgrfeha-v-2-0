@@ -32,12 +32,5 @@ This app guides you through self-discovery exercises and training modules based 
 - **Database (Optional)**: Supabase / Firebase / Prisma + PostgreSQL  
 - **Hosting**: Vercel
 
-## 🚀 Getting Started
+## Made on earth 🚀 by https://github.com/thefutureseer/
 
-Clone the project and install dependencies:
-
-```bash
-git clone https://github.com/thefutureseer/
-cd psychic-power-app
-pnpm install
-pnpm dev

@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 
 export default function Dashboard() {
@@ -22,7 +23,15 @@ export default function Dashboard() {
         </h1>
 
         <p className="text-lg mt-4 text-gray-300">
-          You gotta be a little intuitive to find us.. 🌌
+        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          <Link
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            href="/readme"
+            target="_blank"
+            rel="noopener noreferrer"
+          >You gotta be a little intuitive to find us.. 🌌
+          </Link>
+        </div>
         </p>
 
         <form onSubmit={handleEmail} className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
